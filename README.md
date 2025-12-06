@@ -1,1 +1,1 @@
-# This are the Projects which Designed And Developed by **Prince**.
+# These are the Projects which are Designed And Developed by **Prince**.

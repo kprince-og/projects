@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+body {
+    background-color: #001F3D;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px;
+    padding: 20px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #94B4C1;
+}
+
+p {
+    color: #F4F4F4;
+}
+
+/* -------------------------------header section------------------------------- */
+
+header {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #F4F4F4;
+    padding: 0.86rem;
+    font-weight: 700;
+}
+
+header p {
+    padding: 0.78rem;
+    margin-bottom: 5px;
+}
+
+.info {
+    color: #F4F4F4;
+}
+
+/* --------------------------------content section-------------------------- */
+
+/* hero section */
+
+.hero-section {
+    color: #F4F4F4;
+}
+
+.hero-section h2 {
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    border-left: 5px solid #94B4C1;
+}
+
+/* skills section */
+
+.skills {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill {
+    padding: 3px 5px;
+    border-radius: 6px;
+    background-color: #1A3D64;
+}
+
+/* projects section */
+
+.projects {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 0.85rem;
+    margin-bottom: 50px;
+}
+
+.project {
+    background-color: #1A3D64;
+    border-radius: 6px;
+    padding: 0.86rem;
+    margin: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-6px);
+}
+
+.project h3 {
+    padding: 0.85rem;
+    border-bottom: 2px solid #94B4C1;
+}
+
+.project p {
+    padding: 0.79rem;
+}
+
+.project a {
+    color: #94B4C1;
+    padding: 2rem;
+}
+
+/* experience section */
+
+.experience {
+    margin-bottom: 50px;
+}
+
+.intern {
+    background-color: #1A3D64;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 15px;
+}
+
+.intern h3 {
+    padding-bottom: 0.86rem;
+}
+
+.intern span {
+    color: #94B4C1;
+    margin-bottom: 20px;
+}
+
+.intern p {
+    padding: 15px 0px;
+}
+
+/* education section */
+
+.education ul {
+    margin: 0px 0px 50px 20px;
+}
+
+.education li {
+    padding: 9px;
+    margin-left: 1.5rem;
+}
+
+/* hobbies section */
+
+.hobbies {
+    border-bottom: 1px solid #94B4C1;
+}
+
+.hobbies ul {
+    margin: 0px 0px 50px 20px;
+}
+
+.hobbies li {
+    padding: 9px;
+    margin-left: 1.5rem;
+}
+
+/* -----------------------------footer section----------------------------- */
+
+.copyright {
+    color: #F4F4F4;
+    text-align: center;
+    padding: 15px 0px;
+    margin: 15px 5px;
+}
+
+.contact-us {
+    text-align: center;
+    font-size: 15px;
+}
+
+.contact-us i {
+    font-size: 1rem;
+    padding: 0px 6px;
+}

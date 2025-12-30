@@ -11,5 +11,5 @@ and best practices for creating scalable and maintainable user interfaces.
 - HTML5
 - CSS3 / Bootstrap
 - JavaScript (ES6+)
-- React.js
+<!-- - React.js -->
 - Git & GitHub
